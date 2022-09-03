@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Presentacion</title>
+</head>
+<body bgcolor="cyan">
+<center>
+    <table bgcolor="white" border="2" style="width: 50%; height: 50%;">
+		<td><center>Presentación</center></td>
+		<tr></tr>
+		<td>Daniel Arboleda Valencia Ingeniero de Software en proceso de la Universidad Cooperativa</td>
+        <p></p>
+		<tr></tr>
+		<td>Anwar Joseph Palacios Ingeniero Ingeniero de Software en proceso de la Universidad Cooperativa</td>
+		<tr></tr>
+		<td>Alex Cordoba Ingeniero Ingeniero de Software en proceso de la Universidad Cooperativa</td>
+		
+	</table>
+</center>
+	<nav>
+		<ul class="menu-horizontal">
+			<li><a href="#">Crisis del Software</a>
+				<ul class="menu-vertical">
+                <li><a target=_blank href="Crisis del Software/Introducción.html">Indroducción</a></li>
+                <li><a target=_blank href="Crisis del Software/Razones.html">Razones</a></li>
+				<li><a target=_blank href="Crisis del Software/historia.html">Historia</a></li>
+            </ul>
+		</li>
+			<li><a href="#">Codigo Etico</a>
+                <ul class="menu-vertical">
+            <li><a target=_blank href="Codigo Etico/Social.html">Codigo Etico Sociedad</a></li>
+            <li><a target=_blank href="Codigo Etico/Cliente.html">Codigo Etico Cliente</a></li>
+            <li><a target=_blank href="Codigo Etico/Personal.html">Codigo Etico Personal</a></li>
+			</ul>
+		</li>
+			<li><a href="#">Mi Proyecto</a>
+                <ul class="menu-vertical">
+            <li><a target=_blank href="Mi proyecto/Funcionales.html">Funcionales</a></li>
+            <li><a target=_blank href="Mi proyecto/No Funcionales.html">No Funcionales</a></li>
+			</ul>
+		</li>
+	</nav>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <center>
+        <font size="70%">
+            <button>
+                <a target=_blank href="https://tasks.office.com/campusucc.edu.co/es/Home/Planner/#/plantaskboard?groupId=649a179c-63b6-4f51-a0dc-cd05499ef772&planId=VHnGDgbmdECilHb896BMIGQAAX4A">Cronogram</a>
+    </button>
+        </font>
+            </center>
+</body>
+</html>
+<style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "open sans";
+    }
+    nav{
+        max-width: 900px;
+        margin: auto;
+        background-color: black;
+        font-size: 20px;
+        margin-top: 50px
+    }
+    .menu-horizontal{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    .menu-horizontal > li > a{
+        display: green;
+        padding: 15px 20px;
+        color: white;
+        text-decoration: none;
+    }
+    .menu-horizontal > li:hover{
+        background-color: red;
+    }
+    .menu-vertical{
+        position: absolute;
+        display: none;
+        list-style: none;
+        width: 200px;
+        background-color: rgba(0, 0, 0, .5);
+    }
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: black;
+}
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+      }
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+/**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+</style>
+
